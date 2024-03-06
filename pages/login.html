@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style-login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Inicio Sesión</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="fuente">Bienvenido</h1>
+    <h2 class="fuente">Inicio de sesión</h2>
+    <form action="GET">
+      <div class="inputs">
+        <input id="input-email" class="form__item perform-item" type="email" placeholder="Dirección de correo">
+        <input id="input-password" class="form__item perform-item" type="password" placeholder="Entre la contraseña">
+      </div>
+      <button type="submit" class="form__item form__item--button">Iniciar sesión</button>
+      <button class="back-button form__item form__item--button" type="button"
+        onclick="location.href='../index.html'">Atrás</button>
+    </form>
+  </main>
+  <script src="../scripts/login.js"></script>
+</body>
+
+</html>

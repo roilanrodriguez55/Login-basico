@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.register.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Crear Cuenta</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Registrar</h1>
+    <form action="POST">
+      <input type="text" placeholder="Nombre" class="form__container--form--item perform--item" required>
+      <input type="text" placeholder="Apellidos" class="form__container--form--item perform--item" required>
+      <input type="email" placeholder="Dirección de correo" class="form__container--form--item perform--item" required>
+      <input type="password" placeholder="Contraseña" class="form__container--form--item perform--item" required>
+      <input type="password" placeholder="Confirmar Contraseña" class="form__container--form--item perform--item" required>
+      <input type="submit" value="Registrar" class="form__container--form--item perform--item perfom--button">
+      <button class="back-button form__container--form--item perform--item" type="button" onclick="location.href='../index.html'">Atrás</button>
+    </form>
+    
+
+  </main>
+  <script src="../scripts/register.js"></script>
+</body>
+</html>

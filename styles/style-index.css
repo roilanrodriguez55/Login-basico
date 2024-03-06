@@ -1,0 +1,78 @@
+* {
+  font-family: "Roboto", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(45, 56, 56);
+  width: 100vw;
+  height: 100%;
+}
+
+.container section {
+  height: 50%;
+}
+
+.section-title {
+  background-color: rgb(147, 243, 109);
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.buttons__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons__container button {
+  margin-bottom: 20px;
+  width: 250px;
+  height: 60px;
+  border: 2px solid aliceblue;
+  background-color: rgb(45, 56, 56);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.buttons__container button a,
+.buttons__container button a:link,
+.buttons__container button a:active,
+.buttons__container button a:visited {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.buttons__container button:hover {
+  cursor: pointer;
+  background-color: rgb(147, 243, 109);
+  color: aliceblue;
+}
+
+@media screen and (width>430px) {
+  .container {
+    max-width: 430px;
+    max-height: 700px;
+  }
+}

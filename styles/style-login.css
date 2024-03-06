@@ -1,0 +1,130 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(45, 56, 56);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container .fuente {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.container h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 60px;
+  color: aliceblue;
+}
+
+.container h2 {
+  font-weight: 300;
+  margin-top: 120px;
+  color: rgb(147, 243, 109);
+}
+
+main form {
+  margin-top: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+main form .inputs {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__item {
+  height: 60px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  border: 1px;
+  padding: 10px 5px;
+  background-color: rgb(45, 56, 56);
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.form__item:focus,
+.form__item::placeholder,
+.perform-item {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.form__item--button {
+  font-size: 25px;
+  color: aliceblue;
+  height: 40px;
+  background-color: rgb(147, 243, 109);
+  align-self: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__item--button:hover {
+  background-color: rgb(45, 56, 56);
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: rgb(45, 56, 56);
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background-color: rgb(147, 243, 109);
+  cursor: pointer;
+}
+
+@media screen and (width>430px) {
+  .container {
+    max-width: 350px;
+    height: 550px;
+  }
+
+  .container h2 {
+    margin-top: 60px;
+  }
+
+  main form .inputs {
+    height: 200px;
+  }
+
+  .form__item {
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .form__item::placeholder,
+  .form__item:focus {
+    font-size: 20px;
+  }
+}
