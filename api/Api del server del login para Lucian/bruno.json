@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Api del server del login para Lucian",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
