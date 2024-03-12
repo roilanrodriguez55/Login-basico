@@ -2,6 +2,7 @@
   font-family: "Roboto", Calibri, "Trebuchet MS", sans-serif;
   padding: 0;
   margin: 0;
+  user-select: none;
 }
 
 body {
